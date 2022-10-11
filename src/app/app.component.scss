@@ -1,0 +1,30 @@
+:host{
+    div{
+        width: 100vw;
+        height: 400px;
+        h1{
+            width: 120vw;
+        }
+        form{
+            width: 400px;
+            margin: auto;
+            label{
+                display: block;
+                width: fit-content;
+                margin-top: 10px;
+                margin-bottom: -10px;
+                margin-left: 5px;
+                position: relative;
+                background-color: white;
+            }
+
+            input{
+                all: unset;
+                border: 1px solid;
+                padding-top: 30px;
+                padding-bottom: 30px;
+                padding-left: 15px;
+            }
+        }
+    }
+}
